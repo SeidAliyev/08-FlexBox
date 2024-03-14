@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    height: 100vh;
+}
+.container {
+    margin: auto;
+    background-color: black;
+    border: 1px solid red;
+    max-width: 800px;
+    margin-top: 40px;
+}
+p {
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 10px 0;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    width: 55px;
+}
+.box-1 {
+    background-color: rgb(254, 129, 214);
+}
+.box-2 {
+    background-color: rgb(105, 18, 187);
+}
+.box-3 {
+    background-color: rgb(208, 83, 208);
+}
+.box-4 {
+    background-color: rgb(0, 102, 255);
+}
+.box-5 {
+    background-color: rgb(0, 191, 255);
+}
+.box-6 {
+    background-color: rgb(38, 255, 0);
+}
+.box-7 {
+    background-color: rgb(191, 224, 1);
+}
+.box-8 {
+    background-color: rgb(255, 230, 0);
+}
+.box-9 {
+    background-color: rgb(255, 123, 0);
+}
+.box-10 {
+    background-color: rgb(255, 0, 0);
+}
+
+
+.a1{
+    display: flex;
+    height: 400px;
+}
+.a2{
+    display: flex;
+    align-items: flex-start;
+    height: 400px;
+
+}
+.a3{
+    display: flex;
+    justify-content: start;
+    height: 400px;
+}
+.a3 .box{
+    height: 100px;
+}
+.a3 .box-4 p{
+    font-size: 6rem;
+}
+.a3 .box-4{
+    width: 100px;
+}
+.a4{
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+.a5{
+    display: flex;
+    align-items: baseline;
+    height: 400px;
+}
+.a5 .box{
+    height: 80px;
+}
+.a5 .box-8{
+    height: 250px;
+}
+.a5 .box-7{
+    height: 30px;
+}
+.a5 .box-5{
+    height: 160px;
+}
+.a5 .box-3{
+    height: 50px;
+}
+.a6{
+    display: flex;
+    align-items: flex-end;
+    height: 400px;
+}
+
+
+.b1{
+    display: flex;
+    height: 400px;
+}
+.b1 .box-3{
+    height: 70px;
+    align-self: start;
+}
+.b2{
+    display: flex;
+    height: 400px;
+}
+.b2 .box-3{
+    align-self: center;
+    height: 70px;
+}
+.b3{
+    display: flex;
+    height: 400px;
+}
+.b3 .box-3{
+    align-self: end;
+    height: 70px;
+}
+.b4{
+    display: flex;
+    align-items: baseline;
+}
+.b4 .box-3{
+    height: 400px;
+
+}
+.b5{
+    display: flex;
+    height: 400px;
+}
+.b5 .box-4{
+    align-self: self-start;
+    width: 80px;
+}
+.b5 .box-4 p{
+    font-size: 6rem;
+}
+.b5 .box-3{
+    align-self:self-start;
+    margin-top: 40px;
+}
+.b5 .box-5{
+    align-self: self-start;
+    height: 40px;
+    margin-top: 50px;
+}
+.b6{
+    display: flex;
+    height: 400px;
+}
+
+
+.c1 .box{
+    width: 266px;
+    height: 60px;
+}
+.c1{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.c2 .box{
+    width: 266px;
+    height: 60px;
+}
+.c2{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.c3 .box{
+    width: 266px;
+    height: 60px;
+}
+.c3{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.c4 .box{
+    width: 266px;
+    height: 60px;
+}
+.c4{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-around ;
+}
+.c5 .box{
+    width: 266px;
+    height: 60px;
+}
+.c5{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.c6 .box{
+    width: 266px;
+    height: 60px;
+}
+.c6{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+.c7 .box{
+    width: 266px;
+    height: 100px;
+}
+.c7{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+.d1{
+    display: flex;
+}
+
+.d2{
+    display: flex;
+    justify-content: center;
+}
+
+.d3{
+    display: flex;
+    justify-content: end;
+}
+
+.d4{
+    display: flex;
+    justify-content: space-around;
+}
+.d5{
+    display: flex;
+    justify-content: space-between;
+}
+.d6{
+    display: flex;
+    justify-content: space-evenly;
+}
